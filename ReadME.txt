@@ -8,7 +8,6 @@ Welcome to the AHPPrediction repository!
 This project is entitled "Reducing diagnostic delays in Acute Hepatic Porphyria using electronic health records data and machine learning: a multicenter development and validation study". 
 
 
-
  **Introduction**: 
 
 KEY POINTS
@@ -38,10 +37,6 @@ To train and characterize models for identifying patients with AHP.
  **Installation**: 
 Check, reuirements.txt and installation and dependencies.txt files
 
-
-
-
-
 ## Installation
 
 Here are the steps to install and set up the project locally:
@@ -55,7 +50,7 @@ Here are the steps to install and set up the project locally:
 
 ```bash
 # Run the script
-python Data_Preprocessing.py.py #preprocessing data from electronic health records
+python Data_Preprocessing.py #preprocessing data from electronic health records
 python Feature Selection.py #Feature Selection using various algorithms
 python Porphyria_Classifier.py #generating prediction models
 python Referral_Diagnosis_Model.py #Applying the best performing models to new cohort for prediction
